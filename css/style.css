@@ -1,0 +1,61 @@
+/* Add normalize page*/
+@import "normalize.css";
+
+body, html {
+    height: 100%;
+    background: url('../images/green_cup.png') repeat;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#page {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100%;
+    padding-bottom: 100px;
+    background: burlywood;
+}
+
+#heading {
+    height: 100px;
+    padding: 10px;
+    background: #fff;
+}
+
+#left-sidebar {
+    margin-top: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    background: #c0c0c0;
+    float: left;
+}
+
+#content {
+    margin-top: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80%;
+    background: #FFFAF0;
+    float: right;
+}
+
+#footer {
+    position: relative;
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    background: #2F4F4F;
+    margin: -100px auto 0;
+}
+
+#label {
+    text-transform: uppercase;
+}

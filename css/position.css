@@ -1,0 +1,55 @@
+@import "normalize.css";
+
+html, body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: darkgray;
+}
+
+#screen {
+    position: relative;
+    padding-bottom: -150px;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 100%;
+    background: #fff;
+}
+
+#headline1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#headline2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#headline3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#headline4 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.label {
+    border: solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    background: #FFFFff;
+    width: 100px;
+    height: 40px;
+}
